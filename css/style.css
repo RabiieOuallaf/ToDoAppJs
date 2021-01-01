@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;  
+    font-family: 'Playfair Display', serif;
+}
+body{
+    background-color: #DC86A9;
+
+}
+.mainInput {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    
+}
+.mainInput input + button {
+    margin-left: 10px;
+}
+.mainInput input {
+    width: 500px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 4px 4px 60px  white;
+    padding: 25px;
+}
+.mainInput input::placeholder{
+    font-size: 22px;
+    text-align: center;
+}
+.mainInput button {
+    border-radius: 10px ;
+    background-color: rgb(102, 102, 255);
+    margin-left: 10px;
+    border: none;
+    border-radius: 550px;
+    color: white;
+    font-weight: 900;
+    font-size: 32px;
+    width: 80px;
+    cursor: pointer;
+    box-shadow: 4px 4px 30px  white;
+}
+.btn1 {
+    font-size: 14px !important;
+    background-color:rgb(252, 53, 53) !important;
+    padding-left: 5px;
+}
+.btn2 {
+    font-size: 14px !important;
+    background-color: rgb(250, 111, 56) !important;
+    padding-left: 5px;
+}
+span {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 30px;
+    color: white;
+}
+.todoList {
+    display:flex;
+    justify-content:center;
+    margin-top : 2%;
+}
+.todoList ul {
+    list-style-type: none;
+    margin-right: 30px;
+    color: white;
+    font-size: 26px;
+    font-weight: 500
+}
+.todoList ul li {
+    cursor: pointer;
+}
+
+.done {
+    color: rgb(185, 168, 168);
+    text-decoration: line-through
+}
+.note {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: white;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    font-size: 50px;
+    color:white;
+    
+}
